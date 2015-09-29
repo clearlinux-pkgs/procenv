@@ -4,7 +4,7 @@
 #
 Name     : procenv
 Version  : 0.40
-Release  : 4
+Release  : 5
 URL      : https://launchpad.net/procenv/trunk/v0.40/+download/procenv-0.40.tar.gz
 Source0  : https://launchpad.net/procenv/trunk/v0.40/+download/procenv-0.40.tar.gz
 Summary  : Utility to show process environment
