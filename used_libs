@@ -1,0 +1,4 @@
+libc.so.6
+libcap.so.2
+libnuma.so.1
+libpthread.so.0
