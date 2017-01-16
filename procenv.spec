@@ -4,7 +4,7 @@
 #
 Name     : procenv
 Version  : 0.46
-Release  : 7
+Release  : 8
 URL      : https://github.com/jamesodhunt/procenv/archive/0.46.tar.gz
 Source0  : https://github.com/jamesodhunt/procenv/archive/0.46.tar.gz
 Summary  : Utility to show process environment
@@ -43,6 +43,8 @@ doc components for the procenv package.
 %setup -q -n procenv-0.46
 
 %build
+export LANG=C
+export SOURCE_DATE_EPOCH=1484524995
 %configure --disable-static
 make V=1  %{?_smp_mflags}
 
@@ -54,6 +56,7 @@ export no_proxy=localhost
 make VERBOSE=1 V=1 %{?_smp_mflags} check
 
 %install
+export SOURCE_DATE_EPOCH=1484524995
 rm -rf %{buildroot}
 %make_install
 
