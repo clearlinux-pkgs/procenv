@@ -1,3 +1,13 @@
+0.48	2017-01-31
+
+	* Fix makedev(3) compiler error (it's now in sys/sysmacros.h).
+	  (thanks Dave Love).
+
+0.47	2017-01-31
+
+	* Fixed hang when using PROCENV_EXEC variable.
+	* Test improvements.
+
 0.46	2016-05-28
 
 	* Fixed --file-append behaviour.
