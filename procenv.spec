@@ -4,7 +4,7 @@
 #
 Name     : procenv
 Version  : 0.49
-Release  : 10
+Release  : 11
 URL      : https://github.com/jamesodhunt/procenv/archive/0.49.tar.gz
 Source0  : https://github.com/jamesodhunt/procenv/archive/0.49.tar.gz
 Summary  : Utility to show process environment
