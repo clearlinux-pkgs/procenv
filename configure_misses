@@ -1,0 +1,12 @@
+Configure miss: cpuset_alloc
+Configure miss: library containing kvm_openfiles
+Configure miss: library containing cap_getmode
+Configure miss: library containing getpidcon
+Configure miss: selinux/selinux.h usability
+Configure miss: selinux/selinux.h presence
+Configure miss: selinux/selinux.h
+Configure miss: library containing aa_gettaskcon
+Configure miss: sys/apparmor.h usability
+Configure miss: sys/apparmor.h presence
+Configure miss: sys/apparmor.h
+Configure miss: whether CC supports -Werror=format-security
